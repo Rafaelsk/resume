@@ -102,18 +102,30 @@ body{
   line-height:1.35;
 }
 
-.sidebar section{margin-top:24px}
+.sidebar section{
+  margin-top:28px;
+}
 
 .sidebar h2,
 .content h2{
   margin:0;
   text-transform:uppercase;
-  letter-spacing:1.8px;
-  font-size:12px;
   font-weight:800;
 }
 
-.sidebar h2{margin-bottom:12px}
+.sidebar h2{
+  margin-bottom:14px;
+  padding-bottom:8px;
+  border-bottom:1px solid rgba(255,255,255,.24);
+  font-size:14px;
+  letter-spacing:1.55px;
+  line-height:1.2;
+}
+
+.content h2{
+  letter-spacing:1.8px;
+  font-size:12px;
+}
 
 .contact-list{
   margin:0;
@@ -167,7 +179,7 @@ body{
 }
 
 .secondary-sidebar section{
-  margin-top:20px;
+  margin-top:24px;
 }
 
 .secondary-sidebar .sidebar-list:not(.compact-list){
