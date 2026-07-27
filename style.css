@@ -328,6 +328,11 @@ body{
 
 @media print{
   body{background:#fff}
-  .resume{gap:0;padding:0}
-  .page{margin:0;box-shadow:none;break-after:page}
+  .resume{display:block;padding:0}
+  .page{
+    margin:0;
+    box-shadow:none;
+    break-after:page;
+    zoom:.92;
+  }
 }
