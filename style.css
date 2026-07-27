@@ -327,12 +327,103 @@ body{
 }
 
 @media print{
-  body{background:#fff}
-  .resume{display:block;padding:0}
+  body{
+    background:#fff;
+    font-size:12.8px;
+  }
+
+  .resume{
+    display:block;
+    padding:0;
+  }
+
   .page{
     margin:0;
+    min-height:0;
+    height:297mm;
     box-shadow:none;
     break-after:page;
-    zoom:.92;
+  }
+
+  .sidebar{
+    padding:28px 26px;
+  }
+
+  .content{
+    padding:32px 38px 28px;
+  }
+
+  .photo{
+    width:126px;
+    height:126px;
+    margin-bottom:15px;
+  }
+
+  .role{
+    margin-bottom:22px;
+  }
+
+  .sidebar section{
+    margin-top:21px;
+  }
+
+  .sidebar h2{
+    margin-bottom:10px;
+    padding-bottom:6px;
+  }
+
+  .chips{
+    gap:5px;
+  }
+
+  .chips span{
+    padding:5px 9px;
+  }
+
+  .content section+section{
+    margin-top:22px;
+  }
+
+  .content h2{
+    margin-bottom:14px;
+    padding-bottom:5px;
+  }
+
+  .content p,
+  .content li{
+    line-height:1.38;
+  }
+
+  .intro p{
+    font-size:13.5px;
+    line-height:1.46;
+  }
+
+  .job{
+    margin-top:18px;
+  }
+
+  .page-two .job{
+    margin-top:16px;
+  }
+
+  .content ul{
+    margin-top:7px;
+  }
+
+  .content li+li{
+    margin-top:2px;
+  }
+
+  .subtitle{
+    margin:4px 0 7px;
+  }
+
+  .education-item{
+    margin-top:13px;
+  }
+
+  .compact-list p{
+    margin-bottom:9px;
   }
 }
